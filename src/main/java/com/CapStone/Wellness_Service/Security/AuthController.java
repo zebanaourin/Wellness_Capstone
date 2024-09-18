@@ -2,11 +2,9 @@ package com.CapStone.Wellness_Service.Security;
 
 import com.CapStone.Wellness_Service.Controller.LoginRequest;
 import com.CapStone.Wellness_Service.Controller.RegisterRequest;
-import com.CapStone.Wellness_Service.DTO.UserDTO;
 import com.CapStone.Wellness_Service.Entity.AppUserRole;
 import com.CapStone.Wellness_Service.Entity.User;
 import com.CapStone.Wellness_Service.Repository.UserRepository;
-import com.CapStone.Wellness_Service.Service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
